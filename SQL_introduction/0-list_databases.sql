@@ -1,9 +1,9 @@
-import mysql.connector
+
 
 --  Replace with your MySQL server credentials
 host = "localhost"
 user = "your_username"
-password = "your_password"
+password = ""
 
 --  Connect to the MySQL server
 try:
