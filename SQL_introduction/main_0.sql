@@ -16,4 +16,3 @@ CREATE TABLE IF NOT EXISTS holbteron_2 (
     name VARCHAR(256)
 );
 
-
