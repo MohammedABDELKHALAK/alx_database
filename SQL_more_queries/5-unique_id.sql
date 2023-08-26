@@ -2,7 +2,7 @@
 
 
 -- Write a script that creates the table unique_id on your MySQL server.
-USE hbtn_0c_2;
+USE hbtn_test_db_5;
 
 CREATE TABLE IF NOT EXISTS unique_id (
     id INT NOT NULL DEFAULT 1,
