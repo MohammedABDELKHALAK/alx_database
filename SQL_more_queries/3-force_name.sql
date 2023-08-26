@@ -14,6 +14,7 @@ CREATE TABLE IF NOT EXISTS force_name (
     PRIMARY KEY (id)
 );
 
+USE hbtn_test_db_3;
 -- Regular inserts + select
 INSERT INTO force_name (id, name) VALUES (1, "Holberton School");
 INSERT INTO force_name (id, name) VALUES (1, "Python is cool");
