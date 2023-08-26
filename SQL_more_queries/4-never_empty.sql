@@ -12,3 +12,11 @@ CREATE TABLE IF NOT EXISTS id_not_null (
     id INT NOT NULL DEFAULT 1,
     name VARCHAR(256)
 );
+
+
+INSERT INTO id_not_null (id, name) VALUES
+(1, 'Holberton School'),
+(1, 'Python is cool'),
+(2, 'Holberton'),
+(3, 'School'),
+(4, 'C is fun');
