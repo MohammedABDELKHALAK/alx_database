@@ -2,6 +2,7 @@
 -- New database hbtn_test_db_4
 DROP DATABASE IF EXISTS hbtn_test_db_4;
 CREATE DATABASE IF NOT EXISTS hbtn_test_db_4;
+USE hbtn_test_db_4;
 
 -- Regular inserts + select
 INSERT INTO id_not_null (id, name) VALUES (1, "Holberton School");
@@ -15,6 +16,7 @@ SELECT * FROM id_not_null ORDER BY id, name ASC;
 -- New database hbtn_test_db_5
 DROP DATABASE IF EXISTS hbtn_test_db_5;
 CREATE DATABASE IF NOT EXISTS hbtn_test_db_5;
+USE hbtn_test_db_5;
 
 -- Regular inserts + select
 INSERT INTO unique_id (name) VALUES ("Holberton School");
