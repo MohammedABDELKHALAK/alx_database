@@ -1,13 +1,9 @@
--- Create database and table
-DROP DATABASE IF EXISTS hbtn_test_db_5;
-CREATE DATABASE IF NOT EXISTS hbtn_test_db_5;
 
+
+
+-- prints the full description of the table first_table from the database hbtn_0c_0 in your MySQL server.
 USE hbtn_test_db_5;
 
-CREATE TABLE `first_table` (
-    `id` INT NOT NULL AUTO_INCREMENT,
-    `name` VARCHAR(128) DEFAULT NULL,
-    `c` CHAR(1) DEFAULT NULL,
-    `created_at` DATE DEFAULT NULL,
-    PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+SHOW COLUMNS FROM first_table;
+
+

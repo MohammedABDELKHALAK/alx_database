@@ -23,14 +23,13 @@ CREATE DATABASE IF NOT EXISTS hbtn_test_db_5;
 
 USE hbtn_test_db_5;
 
-CREATE TABLE `first_table` (
-    `id` INT NOT NULL AUTO_INCREMENT,
-    `name` VARCHAR(128) DEFAULT NULL,
-    `c` CHAR(1) DEFAULT NULL,
-    `created_at` DATE DEFAULT NULL,
-    PRIMARY KEY (`id`)
+CREATE TABLE IF NOT EXISTS first_table (
+    id INT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(128),
+    c CHAR(1),
+    created_at DATE,
+    PRIMARY KEY (id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-
 
 DROP DATABASE IF EXISTS hbtn_0c_0;
 CREATE DATABASE IF NOT EXISTS hbtn_0c_0;
