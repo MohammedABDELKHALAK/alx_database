@@ -14,5 +14,3 @@ CREATE TABLE IF NOT EXISTS force_name (
     PRIMARY KEY (id)
 );
 
-
-SELECT * FROM force_name ORDER BY id, name ASC;
