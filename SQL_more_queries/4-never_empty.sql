@@ -13,7 +13,7 @@ CREATE TABLE IF NOT EXISTS id_not_null (
     name VARCHAR(256)
 );
 
-
+USE hbtn_test_db_4;
 INSERT INTO id_not_null (id, name) VALUES
 (1, 'Holberton School'),
 (1, 'Python is cool'),
