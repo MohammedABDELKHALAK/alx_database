@@ -9,8 +9,8 @@ CREATE TABLE IF NOT EXISTS id_not_null (
     name VARCHAR(256)
 );
 
-INSERT INTO id_not_null (name) VALUES ("Holberton School");
-INSERT INTO id_not_null (name) VALUES ("Python is cool");
+INSERT INTO id_not_null (id, name) VALUES (1, "Holberton School");
+INSERT INTO id_not_null (id, name) VALUES (1, "Python is cool");
 INSERT INTO id_not_null (id, name) VALUES (2, "Holberton");
 INSERT INTO id_not_null (id, name) VALUES (3, "School");
 INSERT INTO id_not_null (id, name) VALUES (4, "C is fun");
